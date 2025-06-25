@@ -62,11 +62,6 @@ src/
 
 ---
 
-## 📸 Sample Player Card
-
-![Player Card Preview](https://assets.iplt20.com/ipl/IPLHeadshot2024/164.png)
-
----
 
 ## 🙌 Acknowledgements
 
