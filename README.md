@@ -1,12 +1,84 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🏏 RCB Fan Page – Royal Challengers Bengaluru Squad
 
-Currently, two official plugins are available:
+A visually stunning, stat-packed, one-page fan website for **Royal Challengers Bengaluru (RCB)** fans, showcasing players with images, stats, and animations using **React + Vite**, **Material UI**, and **LottieFiles**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
 
-## Expanding the ESLint configuration
+- 📸 Beautiful player cards with images and names
+- 📊 Modal with bonus stats: Jersey Number, Matches Played, Strike Rate, Best Performance
+- 🧠 Responsive layout using MUI's Grid system
+- ✨ Animated Lottie integration for visual flair
+- 📱 Fully responsive and mobile-friendly UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧪 Tech Stack
+
+- ⚛️ React + Vite
+- 🎨 Material UI (MUI)
+- 🎞️ LottieFiles (`@lottiefiles/react-lottie-player`)
+- 📦 Custom player data (`players.js`)
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/rcb-fan-page.git
+cd rcb-fan-page
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+---
+
+## 🗂️ Project Structure
+
+```
+src/
+├── assets/                  # Lottie animations and images
+├── components/              # Header, PlayerCard, PlayerModal
+├── data/players.js          # RCB player data
+├── App.jsx                  # Main app layout
+├── main.jsx                 # Vite entry
+```
+
+---
+
+## 🤩 Demo Preview
+
+> Coming soon – Add Netlify/Vercel/Render link or GIF here
+
+---
+
+## 📸 Sample Player Card
+
+![Player Card Preview](https://assets.iplt20.com/ipl/IPLHeadshot2024/164.png)
+
+---
+
+## 🙌 Acknowledgements
+
+* [IPL Official Site](https://www.iplt20.com)
+* [LottieFiles](https://lottiefiles.com/)
+* [Material UI](https://mui.com)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
